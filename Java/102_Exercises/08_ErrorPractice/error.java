@@ -10,10 +10,19 @@ class error {
 
 		double num1 = 12.2;
 		double num2 = 14.3;
+<<<<<<< HEAD
 		double answer = num1 * num2 + number;
+=======
+		double answer = 0;
+		answer = num1 * num2 + answer;
+>>>>>>> 88b78b3d7e157cfc09208b1bd004f3a0b2f77e00
 		
 		System.out.println(answer);
 
 		System.out.println("I now have 0 errors!!!");		
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 88b78b3d7e157cfc09208b1bd004f3a0b2f77e00
