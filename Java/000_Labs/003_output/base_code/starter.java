@@ -10,5 +10,9 @@ class starter {
 		// the string "I love to learn coding remotely." will appear in
 		// the command window when you compile and run this program.
 		System.out.print("I love to learn coding remotely."); 
+		System.out.println("Happy Birthday, to you.");
+		System.out.println("Happy Birthday, to you.");
+		System.out.println("Happy Birthday, dear Henry.");
+		System.out.println("Happy Birthday, to you.");
 	}
 }
