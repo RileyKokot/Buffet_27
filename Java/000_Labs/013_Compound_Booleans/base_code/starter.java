@@ -14,7 +14,22 @@ class starter {
 		int n3 = sc.nextInt();
 
 		if((n1>n2) && (n1>n3)){
-			
+			System.out.println("The largest number is: " + n1);
+		}
+		if((n2>n1) && (n2>n3)){
+			System.out.println("The largest number is: " + n2);
+		}
+		if((n3>n1) && (n3>n2)){
+			System.out.println("The largest number is: " + n3);
+		}
+		if((n1<n2) && (n1<n3)){
+			System.out.println("The smallest number is: " + n1);
+		}
+		if((n2<n1) && (n2<n3)){
+			System.out.println("The smallest number is: " + n2);
+		}
+		if((n3<n1) && (n3<n2)){
+			System.out.println("The smallest number is: " + n3);
 		}
 
 
