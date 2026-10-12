@@ -7,21 +7,23 @@ import java.util.Scanner;
 import java.util.Random;
 
 class starter {
-	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
-		lic static void main(String args[]) {
-		Scanner sc = new Scanner(System.in);
-		int num1 = (int)(Math.random()*1000);
-		System.out.println("Please guess a number 0 to 1000");
-		int num2 = sc.nextInt();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Random rand = new Random();
 
-		if(num1 == num2){
-			System.out.println("You are correct! The Number is: " + num1);
-		}
-		if(num1 > num2){
-			
-		}
-	}
+        int secretNumber = rand.nextInt(1000) + 1;
+
+        System.out.print("Guess a number between 1 and 1000: ");
+        int guess = sc.nextInt();
+
+        if (guess > secretNumber) {
+            System.out.println("Your guess is higher than the number.");
+        } 
+        else if (guess < secretNumber) {
+            System.out.println("Your guess is lower than the number.");
+        } 
+        else {
+            System.out.println("You guessed the number!");
+        }
+    }
 }
