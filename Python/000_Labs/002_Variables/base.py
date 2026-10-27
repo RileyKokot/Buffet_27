@@ -1,0 +1,8 @@
+hello = ("I'm in the thick of it, everybody knows")
+world = ("I don't know no nothin' 'bout no ice, I'm just cold")
+riley = ("I'm in my prime but this ain't even final form")
+print(hello)
+print("They know me where it snows, I skied in and they froze")
+print(world)
+print("Forty somethin' milli' subs or so, I've been told")
+print(riley)
